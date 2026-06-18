@@ -1,0 +1,7 @@
+# Project exclude paths
+/zzyl-common/target/
+/zzyl-framework/target/
+/zzyl-pay/target/
+/zzyl-security/target/
+/zzyl-service/target/
+/zzyl-web/target/
