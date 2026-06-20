@@ -1,0 +1,1210 @@
+2026-06-18 19:41:40.171 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2026-06-18 19:41:40.177 [main] INFO  com.zzyl.ZzylApplication-Starting ZzylApplication using Java 11.0.27 on keyl with PID 55024 (D:\software\zzyl\backend\zzyl-web\target\classes started by kong in D:\software\zzyl\backend)
+2026-06-18 19:41:40.178 [main] INFO  com.zzyl.ZzylApplication-No active profile set, falling back to 1 default profile: "default"
+2026-06-18 19:41:42.819 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-18 19:41:42.824 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-18 19:41:42.975 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 126 ms. Found 0 Redis repository interfaces.
+2026-06-18 19:41:44.657 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration' of type [org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$5c468121] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-06-18 19:41:45.237 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9995 (http)
+2026-06-18 19:41:45.259 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9995"]
+2026-06-18 19:41:45.260 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-06-18 19:41:45.260 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-06-18 19:41:45.596 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-06-18 19:41:45.596 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 5064 ms
+2026-06-18 19:41:45.718 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-Init DruidDataSource
+2026-06-18 19:41:45.938 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2026-06-18 19:41:48.008 [main] INFO  org.redisson.Version-Redisson 3.11.2
+2026-06-18 19:41:50.233 [redisson-netty-2-21] INFO  o.r.connection.pool.MasterPubSubConnectionPool-1 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 19:41:50.233 [redisson-netty-2-10] INFO  org.redisson.connection.pool.MasterConnectionPool-24 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 19:41:51.488 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Found 1 Process Engine Configurators in total:
+2026-06-18 19:41:51.489 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$e9723146 (priority:10000)
+2026-06-18 19:41:51.489 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$e9723146 (priority:10000)
+2026-06-18 19:41:52.257 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$e9723146 (priority:10000)
+2026-06-18 19:41:52.366 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl-ProcessEngine default created
+2026-06-18 19:41:52.367 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 19:41:52.368 [Thread-2] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} starting to acquire async jobs due
+2026-06-18 19:41:52.368 [Thread-4] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} starting to reset expired jobs
+2026-06-18 19:41:52.368 [Thread-3] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} starting to acquire async jobs due
+2026-06-18 19:41:52.406 [main] WARN  o.a.s.a.AbstractAutoDeploymentStrategy-Enforced application version not set.
+2026-06-18 19:41:52.651 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------开始创建OSSClient--------------------
+2026-06-18 19:41:53.717 [main] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D981F8C6043438B11A9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D981F8C6043438B11A9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+2026-06-18 19:41:53.794 [main] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D982F8C6043438A61C9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D982F8C6043438A61C9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+2026-06-18 19:41:53.795 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commonController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OSSAliyunFileStorageService': Unsatisfied dependency expressed through field 'ossClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D982F8C6043438A61C9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D982F8C6043438A61C9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+2026-06-18 19:41:53.796 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 19:41:53.796 [activiti-acquire-timer-jobs] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} stopped async job due acquisition
+2026-06-18 19:41:53.796 [activiti-reset-expired-jobs] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} stopped resetting expired jobs
+2026-06-18 19:41:53.796 [activiti-acquire-async-jobs] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} stopped async job due acquisition
+2026-06-18 19:41:53.826 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2026-06-18 19:41:53.832 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2026-06-18 19:41:53.835 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2026-06-18 19:41:53.860 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-06-18 19:41:53.884 [main] ERROR org.springframework.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commonController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OSSAliyunFileStorageService': Unsatisfied dependency expressed through field 'ossClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D982F8C6043438A61C9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D982F8C6043438A61C9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.zzyl.ZzylApplication.main(ZzylApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OSSAliyunFileStorageService': Unsatisfied dependency expressed through field 'ossClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D982F8C6043438A61C9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D982F8C6043438A61C9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D982F8C6043438A61C9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D982F8C6043438A61C9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D982F8C6043438A61C9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D982F8C6043438A61C9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 47 common frames omitted
+Caused by: com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33D982F8C6043438A61C9D
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33D982F8C6043438A61C9D</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:100)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:70)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:257)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:140)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:70)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:83)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:145)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:102)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:97)
+	at com.aliyun.oss.internal.OSSBucketOperation.setBucketLogging(OSSBucketOperation.java:533)
+	at com.aliyun.oss.OSSClient.setBucketLogging(OSSClient.java:925)
+	at com.zzyl.config.OssAliyunAutoConfig.ossClient(OssAliyunAutoConfig.java:41)
+	at com.zzyl.config.OssAliyunAutoConfig$$EnhancerBySpringCGLIB$$1591f95e.CGLIB$ossClient$0(<generated>)
+	at com.zzyl.config.OssAliyunAutoConfig$$EnhancerBySpringCGLIB$$1591f95e$$FastClassBySpringCGLIB$$5fa09c02.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.zzyl.config.OssAliyunAutoConfig$$EnhancerBySpringCGLIB$$1591f95e.ossClient(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 48 common frames omitted
+2026-06-18 22:12:45.213 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2026-06-18 22:12:45.217 [main] INFO  com.zzyl.ZzylApplication-Starting ZzylApplication using Java 11.0.27 on keyl with PID 101908 (D:\software\zzyl\backend\zzyl-web\target\classes started by kong in D:\software\zzyl\backend)
+2026-06-18 22:12:45.218 [main] INFO  com.zzyl.ZzylApplication-No active profile set, falling back to 1 default profile: "default"
+2026-06-18 22:12:47.637 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-18 22:12:47.642 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-18 22:12:47.786 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 122 ms. Found 0 Redis repository interfaces.
+2026-06-18 22:12:48.554 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration' of type [org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e2e2f100] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-06-18 22:12:49.034 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9995 (http)
+2026-06-18 22:12:49.049 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9995"]
+2026-06-18 22:12:49.050 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-06-18 22:12:49.050 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-06-18 22:12:49.356 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-06-18 22:12:49.357 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 3879 ms
+2026-06-18 22:12:49.430 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-Init DruidDataSource
+2026-06-18 22:12:49.570 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2026-06-18 22:12:51.252 [main] INFO  org.redisson.Version-Redisson 3.11.2
+2026-06-18 22:12:53.311 [redisson-netty-2-28] INFO  org.redisson.connection.pool.MasterConnectionPool-24 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 22:12:53.311 [redisson-netty-2-1] INFO  o.r.connection.pool.MasterPubSubConnectionPool-1 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 22:12:54.477 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Found 1 Process Engine Configurators in total:
+2026-06-18 22:12:54.477 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$700ea125 (priority:10000)
+2026-06-18 22:12:54.478 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$700ea125 (priority:10000)
+2026-06-18 22:12:55.158 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$700ea125 (priority:10000)
+2026-06-18 22:12:55.262 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl-ProcessEngine default created
+2026-06-18 22:12:55.263 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 22:12:55.264 [Thread-2] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} starting to acquire async jobs due
+2026-06-18 22:12:55.264 [Thread-3] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} starting to acquire async jobs due
+2026-06-18 22:12:55.264 [Thread-4] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} starting to reset expired jobs
+2026-06-18 22:12:55.308 [main] WARN  o.a.s.a.AbstractAutoDeploymentStrategy-Enforced application version not set.
+2026-06-18 22:12:55.527 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------开始创建OSSClient--------------------
+2026-06-18 22:12:56.443 [main] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE8BCA4183139FCE3FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE8BCA4183139FCE3FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+2026-06-18 22:12:56.541 [main] WARN  com.aliyun.oss-[Server]Unable to execute HTTP request: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE9BCA418313958E5FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE9BCA418313958E5FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+2026-06-18 22:12:56.545 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commonController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OSSAliyunFileStorageService': Unsatisfied dependency expressed through field 'ossClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE9BCA418313958E5FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE9BCA418313958E5FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+2026-06-18 22:12:56.547 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 22:12:56.547 [activiti-acquire-timer-jobs] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} stopped async job due acquisition
+2026-06-18 22:12:56.547 [activiti-reset-expired-jobs] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} stopped resetting expired jobs
+2026-06-18 22:12:56.548 [activiti-acquire-async-jobs] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} stopped async job due acquisition
+2026-06-18 22:12:56.578 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2026-06-18 22:12:56.583 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2026-06-18 22:12:56.587 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2026-06-18 22:12:56.613 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener-
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-06-18 22:12:56.656 [main] ERROR org.springframework.boot.SpringApplication-Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'commonController': Unsatisfied dependency expressed through field 'fileStorageService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OSSAliyunFileStorageService': Unsatisfied dependency expressed through field 'ossClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE9BCA418313958E5FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE9BCA418313958E5FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.zzyl.ZzylApplication.main(ZzylApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'OSSAliyunFileStorageService': Unsatisfied dependency expressed through field 'ossClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE9BCA418313958E5FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE9BCA418313958E5FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ossClient' defined in class path resource [com/zzyl/config/OssAliyunAutoConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE9BCA418313958E5FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE9BCA418313958E5FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.aliyun.oss.OSS]: Factory method 'ossClient' threw exception; nested exception is com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE9BCA418313958E5FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE9BCA418313958E5FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 47 common frames omitted
+Caused by: com.aliyun.oss.OSSException: The OSS Access Key Id you provided does not exist in our records.
+[ErrorCode]: InvalidAccessKeyId
+[RequestId]: 6A33FCE9BCA418313958E5FD
+[HostId]: itheim.oss-cn-beijing.aliyuncs.com
+[ResponseError]:
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidAccessKeyId</Code>
+  <Message>The OSS Access Key Id you provided does not exist in our records.</Message>
+  <RequestId>6A33FCE9BCA418313958E5FD</RequestId>
+  <HostId>itheim.oss-cn-beijing.aliyuncs.com</HostId>
+  <OSSAccessKeyId>LTAI5tDQKg9F61aJhbmhqVRK</OSSAccessKeyId>
+  <EC>0002-00000902</EC>
+  <RecommendDoc>https://api.aliyun.com/troubleshoot?q=0002-00000902</RecommendDoc>
+</Error>
+
+	at com.aliyun.oss.common.utils.ExceptionFactory.createOSSException(ExceptionFactory.java:100)
+	at com.aliyun.oss.internal.OSSErrorResponseHandler.handle(OSSErrorResponseHandler.java:70)
+	at com.aliyun.oss.common.comm.ServiceClient.handleResponse(ServiceClient.java:257)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequestImpl(ServiceClient.java:140)
+	at com.aliyun.oss.common.comm.ServiceClient.sendRequest(ServiceClient.java:70)
+	at com.aliyun.oss.internal.OSSOperation.send(OSSOperation.java:83)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:145)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:102)
+	at com.aliyun.oss.internal.OSSOperation.doOperation(OSSOperation.java:97)
+	at com.aliyun.oss.internal.OSSBucketOperation.setBucketLogging(OSSBucketOperation.java:533)
+	at com.aliyun.oss.OSSClient.setBucketLogging(OSSClient.java:925)
+	at com.zzyl.config.OssAliyunAutoConfig.ossClient(OssAliyunAutoConfig.java:41)
+	at com.zzyl.config.OssAliyunAutoConfig$$EnhancerBySpringCGLIB$$9c2e693d.CGLIB$ossClient$0(<generated>)
+	at com.zzyl.config.OssAliyunAutoConfig$$EnhancerBySpringCGLIB$$9c2e693d$$FastClassBySpringCGLIB$$16ddb074.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.zzyl.config.OssAliyunAutoConfig$$EnhancerBySpringCGLIB$$9c2e693d.ossClient(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 48 common frames omitted
+2026-06-18 22:15:09.565 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2026-06-18 22:15:09.569 [main] INFO  com.zzyl.ZzylApplication-Starting ZzylApplication using Java 11.0.27 on keyl with PID 123840 (D:\software\zzyl\backend\zzyl-web\target\classes started by kong in D:\software\zzyl\backend)
+2026-06-18 22:15:09.570 [main] INFO  com.zzyl.ZzylApplication-No active profile set, falling back to 1 default profile: "default"
+2026-06-18 22:15:11.988 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-18 22:15:11.992 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-18 22:15:12.132 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 115 ms. Found 0 Redis repository interfaces.
+2026-06-18 22:15:12.859 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration' of type [org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$38ff4269] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-06-18 22:15:13.298 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9995 (http)
+2026-06-18 22:15:13.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9995"]
+2026-06-18 22:15:13.316 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-06-18 22:15:13.316 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-06-18 22:15:13.636 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-06-18 22:15:13.636 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 3832 ms
+2026-06-18 22:15:13.737 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-Init DruidDataSource
+2026-06-18 22:15:13.912 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2026-06-18 22:15:15.553 [main] INFO  org.redisson.Version-Redisson 3.11.2
+2026-06-18 22:15:17.522 [redisson-netty-2-7] INFO  org.redisson.connection.pool.MasterConnectionPool-24 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 22:15:17.523 [redisson-netty-2-12] INFO  o.r.connection.pool.MasterPubSubConnectionPool-1 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 22:15:18.661 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Found 1 Process Engine Configurators in total:
+2026-06-18 22:15:18.661 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$c62af28e (priority:10000)
+2026-06-18 22:15:18.662 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$c62af28e (priority:10000)
+2026-06-18 22:15:19.214 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$c62af28e (priority:10000)
+2026-06-18 22:15:19.280 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl-ProcessEngine default created
+2026-06-18 22:15:19.280 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 22:15:19.281 [Thread-2] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} starting to acquire async jobs due
+2026-06-18 22:15:19.281 [Thread-3] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} starting to acquire async jobs due
+2026-06-18 22:15:19.281 [Thread-4] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} starting to reset expired jobs
+2026-06-18 22:15:19.313 [main] WARN  o.a.s.a.AbstractAutoDeploymentStrategy-Enforced application version not set.
+2026-06-18 22:15:19.473 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------开始创建OSSClient--------------------
+2026-06-18 22:15:20.138 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------结束创建OSSClient--------------------
+2026-06-18 22:15:21.146 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-06-18 22:15:21.409 [main] INFO  o.s.security.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58070889, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c71329f, org.springframework.security.web.context.SecurityContextPersistenceFilter@46933c4, org.springframework.security.web.header.HeaderWriterFilter@7d800902, org.springframework.security.web.authentication.logout.LogoutFilter@6375af2a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21e5feb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ca1c156, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@225fc6a2, org.springframework.security.web.session.SessionManagementFilter@1ff359b7, org.springframework.security.web.access.ExceptionTranslationFilter@2a85e4f4, org.springframework.security.web.access.intercept.AuthorizationFilter@5ea4abef]
+2026-06-18 22:15:21.431 [main] INFO  com.zzyl.config.XxlJobConfig->>>>>>>>>>> xxl-job config init.
+2026-06-18 22:15:22.406 [main] DEBUG o.s.w.s.server.standard.ServerEndpointExporter-Registering @ServerEndpoint class: class com.zzyl.websocket.WebSocketServer
+2026-06-18 22:15:22.426 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:createMothBillAndTaskJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1f5b3ef2[class com.zzyl.job.BillJob#createMothBillAndTaskJob]
+2026-06-18 22:15:22.426 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:clearDeviceDataJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@35014251[class com.zzyl.job.DeviceDataClearJob#clearDeviceDataJob]
+2026-06-18 22:15:22.426 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:reservationStatusToExpired, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@77bff3d7[class com.zzyl.job.ReservationJob#updateReservationStatus]
+2026-06-18 22:15:22.426 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:tradingJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4dba7f3c[class com.zzyl.job.TradeJob#tradingJob]
+2026-06-18 22:15:22.482 [main] WARN  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+2026-06-18 22:15:22.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9995"]
+2026-06-18 22:15:22.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9995 (http) with context path ''
+2026-06-18 22:15:22.513 [Thread-7] INFO  com.xxl.job.core.server.EmbedServer->>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2026-06-18 22:15:23.012 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.025 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: RefundRecordVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.036 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.038 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.039 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.040 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.041 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.041 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.042 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.070 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.071 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.072 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.073 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.074 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.076 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.076 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.082 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.158 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.159 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.160 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.161 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.162 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.163 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.164 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.165 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.212 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.224 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.227 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.232 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.326 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.404 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.405 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.408 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.409 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.409 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.410 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.412 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.414 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.422 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.423 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.424 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.425 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.426 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.426 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.427 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.428 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.432 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.437 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.476 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.477 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.478 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.482 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.486 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.490 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.502 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.503 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.504 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.505 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.506 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.507 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.507 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.508 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.526 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.529 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.532 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.547 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.595 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.595 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.596 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.600 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.602 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.648 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.649 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.650 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.653 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.658 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.660 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.665 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.682 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.683 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.684 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.685 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.685 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.687 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.688 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.688 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:15:23.699 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:15:23.868 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:15:23.868 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:15:23.903 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:15:23.904 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:15:23.931 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:15:23.931 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:15:23.936 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:15:23.948 [main] INFO  com.zzyl.ZzylApplication-Started ZzylApplication in 14.825 seconds (JVM running for 16.711)
+2026-06-18 22:15:24.809 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[1] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:25.149 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[2] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:25.536 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[3] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:25.939 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[4] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:26.517 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[5] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:27.361 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[6] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:28.614 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[7] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:30.870 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[8] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:35.038 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[9] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:43.034 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[10] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:15:43.035 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 10 attempt(s) continuing to retry.
+2026-06-18 22:15:58.871 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[11] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:16:29.261 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[12] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:16:34.066 [http-nio-9995-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 22:16:34.068 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-06-18 22:16:34.076 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 8 ms
+2026-06-18 22:16:51.748 [http-nio-9995-exec-6] ERROR com.alibaba.druid.pool.DruidAbstractDataSource-discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, lastPacketReceivedIdleMillis : 92429
+2026-06-18 22:16:51.751 [http-nio-9995-exec-6] ERROR com.alibaba.druid.pool.DruidAbstractDataSource-discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, lastPacketReceivedIdleMillis : 92446
+2026-06-18 22:16:59.664 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[13] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:17:29.976 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[14] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:18:00.268 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[15] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:18:30.579 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[16] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:19:00.972 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[17] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:19:31.448 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[18] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:20:01.791 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[19] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:20:32.109 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[20] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:20:32.111 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 20 attempt(s) continuing to retry.
+2026-06-18 22:21:02.611 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[21] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:21:32.977 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[22] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:22:03.375 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[23] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:22:33.704 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[24] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:22:36.940 [http-nio-9995-exec-3] ERROR com.alibaba.druid.pool.DruidAbstractDataSource-discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, lastPacketReceivedIdleMillis : 333893
+2026-06-18 22:23:04.023 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[25] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:23:34.342 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[26] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:24:04.646 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[27] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:24:35.002 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[28] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:25:05.494 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[29] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:25:35.798 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[30] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:25:35.800 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 30 attempt(s) continuing to retry.
+2026-06-18 22:26:06.053 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[31] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:26:36.394 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[32] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:27:06.744 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[33] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:27:37.217 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[34] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:28:07.587 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[35] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:28:37.843 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[36] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:29:08.313 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[37] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:29:38.775 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[38] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:30:09.123 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[39] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:30:39.437 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[40] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:30:39.440 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 40 attempt(s) continuing to retry.
+2026-06-18 22:31:09.779 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[41] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:31:40.071 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[42] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:32:10.413 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[43] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:32:40.758 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[44] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:33:11.129 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[45] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:33:41.487 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[46] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:34:11.807 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[47] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:34:42.182 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[48] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:35:12.715 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[49] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:35:43.122 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[50] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:35:43.125 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 50 attempt(s) continuing to retry.
+2026-06-18 22:36:13.553 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[51] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:36:43.916 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[52] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:37:14.243 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[53] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:37:44.606 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[54] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:38:14.928 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[55] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:38:45.276 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[56] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:39:15.540 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[57] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:39:45.884 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[58] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:40:16.237 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[59] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:40:46.599 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[60] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:40:46.603 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 60 attempt(s) continuing to retry.
+2026-06-18 22:41:16.977 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[61] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:41:47.464 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[62] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:42:17.962 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[63] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:42:48.295 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[64] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:43:18.724 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[65] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:43:49.070 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[66] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:44:19.439 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[67] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:44:49.782 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[68] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:44:52.858 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 22:44:52.858 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 22:44:52.859 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 22:44:52.859 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 22:44:52.859 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 22:44:52.859 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 22:44:52.859 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 22:44:52.859 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 22:44:53.425 [Thread-7] INFO  com.xxl.job.core.server.EmbedServer->>>>>>>>>>> xxl-job remoting server stop.
+2026-06-18 22:44:53.431 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread->>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='zzyl-dev-executor', registryValue='http://28.0.0.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2026-06-18 22:44:53.431 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread->>>>>>>>>>> xxl-job, executor registry thread destory.
+2026-06-18 22:44:53.431 [SpringApplicationShutdownHook] INFO  com.xxl.job.core.server.EmbedServer->>>>>>>>>>> xxl-job remoting server destroy success.
+2026-06-18 22:44:53.431 [xxl-job, executor TriggerCallbackThread] INFO  com.xxl.job.core.thread.TriggerCallbackThread->>>>>>>>>>> xxl-job, executor callback thread destory.
+2026-06-18 22:44:53.431 [Thread-6] INFO  com.xxl.job.core.thread.TriggerCallbackThread->>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2026-06-18 22:44:53.443 [SpringApplicationShutdownHook] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 22:44:53.444 [activiti-acquire-timer-jobs] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} stopped async job due acquisition
+2026-06-18 22:44:53.444 [activiti-acquire-async-jobs] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} stopped async job due acquisition
+2026-06-18 22:44:53.444 [activiti-reset-expired-jobs] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} stopped resetting expired jobs
+2026-06-18 22:44:53.486 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2026-06-18 22:44:53.491 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2026-06-18 22:44:57.167 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2026-06-18 22:44:57.169 [main] INFO  com.zzyl.ZzylApplication-Starting ZzylApplication using Java 11.0.27 on keyl with PID 135496 (D:\software\zzyl\backend\zzyl-web\target\classes started by kong in D:\software\zzyl\backend)
+2026-06-18 22:44:57.170 [main] INFO  com.zzyl.ZzylApplication-No active profile set, falling back to 1 default profile: "default"
+2026-06-18 22:44:59.192 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-18 22:44:59.195 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-18 22:44:59.322 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 110 ms. Found 0 Redis repository interfaces.
+2026-06-18 22:44:59.982 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration' of type [org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$1eb238a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-06-18 22:45:00.416 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9995 (http)
+2026-06-18 22:45:00.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9995"]
+2026-06-18 22:45:00.433 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-06-18 22:45:00.433 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-06-18 22:45:00.745 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-06-18 22:45:00.745 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 3317 ms
+2026-06-18 22:45:00.821 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-Init DruidDataSource
+2026-06-18 22:45:00.957 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2026-06-18 22:45:02.370 [main] INFO  org.redisson.Version-Redisson 3.11.2
+2026-06-18 22:45:04.342 [redisson-netty-2-11] INFO  org.redisson.connection.pool.MasterConnectionPool-24 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 22:45:04.342 [redisson-netty-2-23] INFO  o.r.connection.pool.MasterPubSubConnectionPool-1 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 22:45:05.451 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Found 1 Process Engine Configurators in total:
+2026-06-18 22:45:05.452 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$abdde8cb (priority:10000)
+2026-06-18 22:45:05.452 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$abdde8cb (priority:10000)
+2026-06-18 22:45:06.040 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$abdde8cb (priority:10000)
+2026-06-18 22:45:06.113 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl-ProcessEngine default created
+2026-06-18 22:45:06.114 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 22:45:06.115 [Thread-2] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} starting to acquire async jobs due
+2026-06-18 22:45:06.115 [Thread-3] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} starting to acquire async jobs due
+2026-06-18 22:45:06.115 [Thread-4] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} starting to reset expired jobs
+2026-06-18 22:45:06.142 [main] WARN  o.a.s.a.AbstractAutoDeploymentStrategy-Enforced application version not set.
+2026-06-18 22:45:06.309 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------开始创建OSSClient--------------------
+2026-06-18 22:45:06.800 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------结束创建OSSClient--------------------
+2026-06-18 22:45:07.756 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-06-18 22:45:08.010 [main] INFO  o.s.security.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7940d27b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19e3ce9a, org.springframework.security.web.context.SecurityContextPersistenceFilter@c3fd72, org.springframework.security.web.header.HeaderWriterFilter@26ae9861, org.springframework.security.web.authentication.logout.LogoutFilter@644ae4ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@521f2a23, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30e3544d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cd3e2f3, org.springframework.security.web.session.SessionManagementFilter@46933c4, org.springframework.security.web.access.ExceptionTranslationFilter@3ef85262, org.springframework.security.web.access.intercept.AuthorizationFilter@632cfbc5]
+2026-06-18 22:45:08.027 [main] INFO  com.zzyl.config.XxlJobConfig->>>>>>>>>>> xxl-job config init.
+2026-06-18 22:45:08.964 [main] DEBUG o.s.w.s.server.standard.ServerEndpointExporter-Registering @ServerEndpoint class: class com.zzyl.websocket.WebSocketServer
+2026-06-18 22:45:08.981 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:createMothBillAndTaskJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@57e6fd09[class com.zzyl.job.BillJob#createMothBillAndTaskJob]
+2026-06-18 22:45:08.981 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:clearDeviceDataJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@258274cb[class com.zzyl.job.DeviceDataClearJob#clearDeviceDataJob]
+2026-06-18 22:45:08.981 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:reservationStatusToExpired, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@44c6e366[class com.zzyl.job.ReservationJob#updateReservationStatus]
+2026-06-18 22:45:08.981 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:tradingJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@637edfe0[class com.zzyl.job.TradeJob#tradingJob]
+2026-06-18 22:45:09.049 [main] WARN  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+2026-06-18 22:45:09.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9995"]
+2026-06-18 22:45:09.082 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9995 (http) with context path ''
+2026-06-18 22:45:09.084 [Thread-7] INFO  com.xxl.job.core.server.EmbedServer->>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2026-06-18 22:45:09.575 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.588 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: RefundRecordVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.605 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.606 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.607 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.608 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.608 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.609 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.609 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.632 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.633 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.633 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.634 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.635 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.636 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.637 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.642 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.703 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.704 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.705 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.705 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.706 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.707 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.708 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.709 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.749 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.758 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.760 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.762 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.836 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.900 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.902 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.904 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.905 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.906 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.906 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.908 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.909 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.916 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.917 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.918 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.918 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.919 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.920 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.921 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.921 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.925 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.928 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.960 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.962 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.962 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.966 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.968 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.970 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.979 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.980 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.981 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.981 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.982 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.983 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.983 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.984 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:09.998 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.001 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.002 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.013 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.061 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.062 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.063 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.066 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.068 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.114 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.115 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.116 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.119 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.123 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.126 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.130 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.146 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.147 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.147 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.148 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.149 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.150 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.151 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.152 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 22:45:10.162 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:45:10.267 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:45:10.267 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:45:10.282 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:45:10.282 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:45:10.296 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:45:10.296 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 22:45:10.300 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 22:45:10.312 [main] INFO  com.zzyl.ZzylApplication-Started ZzylApplication in 13.533 seconds (JVM running for 15.342)
+2026-06-18 22:45:10.941 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[1] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:11.280 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[2] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:11.658 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[3] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:12.166 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[4] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:12.705 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[5] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:13.454 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[6] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:14.747 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[7] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:17.007 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[8] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:21.163 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[9] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:29.174 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[10] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:29.179 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 10 attempt(s) continuing to retry.
+2026-06-18 22:45:44.837 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[11] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:45:51.638 [http-nio-9995-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 22:45:51.639 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-06-18 22:45:51.645 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 5 ms
+2026-06-18 22:46:15.395 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[12] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:46:45.801 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[13] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:46:46.944 [http-nio-9995-exec-3] INFO  com.zzyl.config.OSSAliyunFileStorageService-OSS文件上传开始：6e7172b3-78dd-4506-8100-c1075cc93ba6.png
+2026-06-18 22:46:47.947 [http-nio-9995-exec-3] INFO  com.zzyl.config.OSSAliyunFileStorageService-OSS文件上传成功：6e7172b3-78dd-4506-8100-c1075cc93ba6.png
+2026-06-18 22:47:16.191 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[14] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:47:46.493 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[15] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:48:16.810 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[16] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:48:47.166 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[17] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:49:17.519 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[18] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:49:47.875 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[19] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:50:18.237 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[20] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:50:18.239 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 20 attempt(s) continuing to retry.
+2026-06-18 22:50:48.614 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[21] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:51:18.927 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[22] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:51:49.320 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[23] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:52:19.716 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[24] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:52:50.043 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[25] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:53:20.531 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[26] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:53:50.889 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[27] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:54:21.282 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[28] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:54:51.653 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[29] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:55:42.720 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[30] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:55:42.721 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 30 attempt(s) continuing to retry.
+2026-06-18 22:56:13.021 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[31] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:56:43.501 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[32] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:57:13.938 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[33] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:57:44.264 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[34] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:58:14.554 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[35] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:58:44.906 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[36] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:59:15.240 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[37] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 22:59:45.877 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[38] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:00:16.306 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[39] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:00:46.699 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[40] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:00:46.701 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 40 attempt(s) continuing to retry.
+2026-06-18 23:01:16.995 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[41] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:01:47.329 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[42] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:02:18.118 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[43] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:02:48.417 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[44] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:03:18.892 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[45] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:03:49.343 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[46] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:04:19.657 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[47] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:04:49.982 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[48] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:05:20.409 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[49] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:05:50.817 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[50] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:05:50.818 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 50 attempt(s) continuing to retry.
+2026-06-18 23:06:21.148 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[51] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:06:51.524 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[52] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:07:21.864 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[53] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:07:52.191 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[54] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:08:22.619 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[55] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:08:52.974 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[56] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:09:23.290 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[57] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:09:53.605 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[58] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:10:23.929 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[59] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:10:54.365 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[60] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:10:54.374 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 60 attempt(s) continuing to retry.
+2026-06-18 23:11:24.944 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[61] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:11:55.585 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[62] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:12:25.956 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[63] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:12:56.264 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[64] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:13:26.623 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[65] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:13:57.025 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[66] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:14:27.434 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[67] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:14:57.753 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[68] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:15:28.066 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[69] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:15:58.377 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[70] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:15:58.385 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 70 attempt(s) continuing to retry.
+2026-06-18 23:16:28.778 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[71] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:16:59.259 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[72] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:17:29.669 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[73] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:17:59.955 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[74] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:18:30.256 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[75] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:19:00.773 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[76] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:19:31.216 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[77] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:20:01.547 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[78] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:20:31.839 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[79] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:21:02.164 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[80] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:21:02.168 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 80 attempt(s) continuing to retry.
+2026-06-18 23:21:32.739 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[81] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:22:03.126 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[82] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:22:33.489 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[83] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:23:03.830 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[84] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:23:34.407 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[85] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:24:04.917 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[86] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:24:35.356 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[87] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:25:05.943 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[88] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:25:36.345 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[89] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:26:06.673 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[90] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:26:06.680 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 90 attempt(s) continuing to retry.
+2026-06-18 23:26:37.638 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[91] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:27:07.962 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[92] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:27:38.327 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[93] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:28:08.810 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[94] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:28:39.108 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[95] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:29:09.425 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[96] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:29:39.761 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[97] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:30:10.123 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[98] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:30:40.586 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[99] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:31:10.851 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[100] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:31:10.855 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 100 attempt(s) continuing to retry.
+2026-06-18 23:31:41.138 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[101] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:32:11.654 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[102] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:32:42.053 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[103] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:33:12.453 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[104] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:33:42.960 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[105] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:34:13.457 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[106] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:34:43.733 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[107] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:35:14.056 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[108] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:35:44.469 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[109] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:36:14.800 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[110] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:36:14.803 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 110 attempt(s) continuing to retry.
+2026-06-18 23:36:45.116 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[111] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:37:15.473 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[112] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:37:45.821 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[113] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:38:16.205 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[114] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:38:46.557 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[115] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:39:17.056 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[116] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:39:47.397 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[117] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:40:17.678 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[118] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:40:48.048 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[119] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:41:18.516 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[120] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:41:18.523 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 120 attempt(s) continuing to retry.
+2026-06-18 23:41:48.955 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[121] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:42:19.242 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[122] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:42:49.569 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[123] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:43:20.063 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[124] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:43:50.488 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[125] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:44:20.836 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[126] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:44:51.146 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[127] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:45:21.464 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[128] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:45:51.728 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[129] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:46:22.105 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[130] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:46:22.109 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 130 attempt(s) continuing to retry.
+2026-06-18 23:46:52.411 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[131] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:47:22.786 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[132] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:47:53.087 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[133] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:48:23.419 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[134] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:48:53.746 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[135] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:49:24.099 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[136] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:49:54.478 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[137] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:50:24.914 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[138] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:50:55.214 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[139] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:51:25.561 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[140] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:51:25.565 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 140 attempt(s) continuing to retry.
+2026-06-18 23:51:55.960 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[141] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:52:26.316 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[142] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:52:56.668 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[143] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:53:26.979 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[144] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:53:54.114 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 23:53:54.114 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 23:53:54.115 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 23:53:54.115 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 23:53:54.115 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 23:53:54.115 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 23:53:54.115 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopping...
+2026-06-18 23:53:54.116 [SpringApplicationShutdownHook] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Stopped.
+2026-06-18 23:53:55.077 [Thread-7] INFO  com.xxl.job.core.server.EmbedServer->>>>>>>>>>> xxl-job remoting server stop.
+2026-06-18 23:53:55.080 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread->>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='zzyl-dev-executor', registryValue='http://28.0.0.1:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2026-06-18 23:53:55.081 [xxl-job, executor ExecutorRegistryThread] INFO  com.xxl.job.core.thread.ExecutorRegistryThread->>>>>>>>>>> xxl-job, executor registry thread destory.
+2026-06-18 23:53:55.081 [SpringApplicationShutdownHook] INFO  com.xxl.job.core.server.EmbedServer->>>>>>>>>>> xxl-job remoting server destroy success.
+2026-06-18 23:53:55.082 [xxl-job, executor TriggerCallbackThread] INFO  com.xxl.job.core.thread.TriggerCallbackThread->>>>>>>>>>> xxl-job, executor callback thread destory.
+2026-06-18 23:53:55.083 [Thread-6] INFO  com.xxl.job.core.thread.TriggerCallbackThread->>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2026-06-18 23:53:55.114 [SpringApplicationShutdownHook] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 23:53:55.114 [activiti-acquire-timer-jobs] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} stopped async job due acquisition
+2026-06-18 23:53:55.114 [activiti-reset-expired-jobs] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} stopped resetting expired jobs
+2026-06-18 23:53:55.114 [activiti-acquire-async-jobs] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} stopped async job due acquisition
+2026-06-18 23:53:55.184 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closing ...
+2026-06-18 23:53:55.199 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} closed
+2026-06-18 23:54:00.039 [background-preinit] INFO  org.hibernate.validator.internal.util.Version-HV000001: Hibernate Validator 6.2.5.Final
+2026-06-18 23:54:00.043 [main] INFO  com.zzyl.ZzylApplication-Starting ZzylApplication using Java 11.0.27 on keyl with PID 135336 (D:\software\zzyl\backend\zzyl-web\target\classes started by kong in D:\software\zzyl\backend)
+2026-06-18 23:54:00.044 [main] INFO  com.zzyl.ZzylApplication-No active profile set, falling back to 1 default profile: "default"
+2026-06-18 23:54:02.640 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Multiple Spring Data modules found, entering strict repository configuration mode
+2026-06-18 23:54:02.644 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-06-18 23:54:02.782 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate-Finished Spring Data repository scanning in 120 ms. Found 0 Redis repository interfaces.
+2026-06-18 23:54:03.608 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration' of type [org.activiti.spring.boot.ActivitiMethodSecurityAutoConfiguration$ActivitiMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e2e2f100] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2026-06-18 23:54:04.108 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port(s): 9995 (http)
+2026-06-18 23:54:04.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9995"]
+2026-06-18 23:54:04.124 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2026-06-18 23:54:04.124 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/9.0.65]
+2026-06-18 23:54:04.458 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2026-06-18 23:54:04.459 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 4145 ms
+2026-06-18 23:54:04.536 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure-Init DruidDataSource
+2026-06-18 23:54:04.677 [main] INFO  com.alibaba.druid.pool.DruidDataSource-{dataSource-1} inited
+2026-06-18 23:54:06.612 [main] INFO  org.redisson.Version-Redisson 3.11.2
+2026-06-18 23:54:09.711 [redisson-netty-2-20] INFO  o.r.connection.pool.MasterPubSubConnectionPool-1 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 23:54:09.711 [redisson-netty-2-11] INFO  org.redisson.connection.pool.MasterConnectionPool-24 connections initialized for 192.168.200.146/192.168.200.146:6379
+2026-06-18 23:54:11.740 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Found 1 Process Engine Configurators in total:
+2026-06-18 23:54:11.741 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$700ea125 (priority:10000)
+2026-06-18 23:54:11.741 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$700ea125 (priority:10000)
+2026-06-18 23:54:12.658 [main] INFO  o.a.engine.impl.cfg.ProcessEngineConfigurationImpl-Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$700ea125 (priority:10000)
+2026-06-18 23:54:12.795 [main] INFO  org.activiti.engine.impl.ProcessEngineImpl-ProcessEngine default created
+2026-06-18 23:54:12.796 [main] INFO  o.a.e.impl.asyncexecutor.DefaultAsyncJobExecutor-Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2026-06-18 23:54:12.797 [Thread-2] INFO  o.a.e.i.asyncexecutor.AcquireAsyncJobsDueRunnable-{} starting to acquire async jobs due
+2026-06-18 23:54:12.797 [Thread-4] INFO  o.a.e.impl.asyncexecutor.ResetExpiredJobsRunnable-{} starting to reset expired jobs
+2026-06-18 23:54:12.798 [Thread-3] INFO  o.a.e.impl.asyncexecutor.AcquireTimerJobsRunnable-{} starting to acquire async jobs due
+2026-06-18 23:54:12.832 [main] WARN  o.a.s.a.AbstractAutoDeploymentStrategy-Enforced application version not set.
+2026-06-18 23:54:13.100 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------开始创建OSSClient--------------------
+2026-06-18 23:54:13.813 [main] INFO  com.zzyl.config.OssAliyunAutoConfig------------------结束创建OSSClient--------------------
+2026-06-18 23:54:15.467 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-06-18 23:54:15.900 [main] INFO  o.s.security.web.DefaultSecurityFilterChain-Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@644ae4ff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a080ba3, org.springframework.security.web.context.SecurityContextPersistenceFilter@38691f8d, org.springframework.security.web.header.HeaderWriterFilter@6c5fbe8a, org.springframework.security.web.authentication.logout.LogoutFilter@15c25cb6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c3fd72, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bddb619, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ea4abef, org.springframework.security.web.session.SessionManagementFilter@1e1c1634, org.springframework.security.web.access.ExceptionTranslationFilter@6d921d6b, org.springframework.security.web.access.intercept.AuthorizationFilter@794a3410]
+2026-06-18 23:54:15.933 [main] INFO  com.zzyl.config.XxlJobConfig->>>>>>>>>>> xxl-job config init.
+2026-06-18 23:54:17.627 [main] DEBUG o.s.w.s.server.standard.ServerEndpointExporter-Registering @ServerEndpoint class: class com.zzyl.websocket.WebSocketServer
+2026-06-18 23:54:17.662 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:createMothBillAndTaskJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@2a3d9ed3[class com.zzyl.job.BillJob#createMothBillAndTaskJob]
+2026-06-18 23:54:17.663 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:clearDeviceDataJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@339ecd3f[class com.zzyl.job.DeviceDataClearJob#clearDeviceDataJob]
+2026-06-18 23:54:17.663 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:reservationStatusToExpired, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@15f12e7b[class com.zzyl.job.ReservationJob#updateReservationStatus]
+2026-06-18 23:54:17.663 [main] INFO  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job register jobhandler success, name:tradingJob, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@102fcc80[class com.zzyl.job.TradeJob#tradingJob]
+2026-06-18 23:54:17.774 [main] WARN  com.xxl.job.core.executor.XxlJobExecutor->>>>>>>>>>> xxl-job accessToken is empty. To ensure system security, please set the accessToken.
+2026-06-18 23:54:17.802 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9995"]
+2026-06-18 23:54:17.824 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port(s): 9995 (http) with context path ''
+2026-06-18 23:54:17.825 [Thread-7] INFO  com.xxl.job.core.server.EmbedServer->>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+2026-06-18 23:54:18.684 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.705 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: RefundRecordVo, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.732 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.733 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.734 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.735 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.736 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.736 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.738 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.772 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.774 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.775 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.776 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.777 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.779 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.780 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.787 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.899 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.900 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.901 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.903 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.904 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.904 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.906 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.907 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.969 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.984 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.986 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:18.991 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: DeptDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.112 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.231 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.233 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.239 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.241 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.242 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.243 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.246 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.247 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.262 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.263 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.265 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.268 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.269 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.271 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.272 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.274 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.279 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.287 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: TradingVo, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.354 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.355 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.356 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.360 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.363 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.368 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: PostDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.388 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.390 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.391 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.392 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.393 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.394 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.395 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.396 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.422 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.427 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.432 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.452 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: ResourceDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.543 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.544 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.545 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.552 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.558 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: roleDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.640 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.642 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.643 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.648 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.652 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.655 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserDto, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.662 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: UserVo, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.693 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.694 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.696 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.697 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.699 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.700 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.702 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.704 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader-Unable to interpret the implicit parameter configuration with dataType: long, dataTypeClass: class java.lang.Void
+2026-06-18 23:54:19.719 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 23:54:19.890 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 23:54:19.890 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 23:54:19.910 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 23:54:19.910 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 23:54:19.927 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 23:54:19.927 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Starting...
+2026-06-18 23:54:19.932 [main] INFO  org.activiti.spring.AbstractActivitiSmartLifeCycle-Started.
+2026-06-18 23:54:19.949 [main] INFO  com.zzyl.ZzylApplication-Started ZzylApplication in 20.398 seconds (JVM running for 22.429)
+2026-06-18 23:54:21.017 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[1] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:21.372 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[2] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:21.764 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[3] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:22.218 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[4] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:22.804 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[5] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:23.631 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[6] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:24.948 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[7] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:27.203 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[8] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:31.415 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[9] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:39.441 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[10] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:54:39.448 [FailoverProvider: async work thread] WARN  o.a.qpid.jms.provider.failover.FailoverProvider-Failed to connect after: 10 attempt(s) continuing to retry.
+2026-06-18 23:54:42.219 [http-nio-9995-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 23:54:42.219 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2026-06-18 23:54:42.231 [http-nio-9995-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 11 ms
+2026-06-18 23:54:55.335 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[11] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:55:25.731 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[12] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:55:52.927 [activiti-acquire-timer-jobs] ERROR com.alibaba.druid.pool.DruidAbstractDataSource-discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, jdbcUrl : jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai, lastPacketReceivedIdleMillis : 100103
+2026-06-18 23:55:56.073 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[13] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:56:26.389 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[14] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:56:56.678 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[15] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:57:26.995 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[16] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:57:57.363 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[17] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:58:27.712 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[18] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed
+2026-06-18 23:58:58.125 [FailoverProvider: async work thread] INFO  o.a.qpid.jms.provider.failover.FailoverProvider-Connection attempt:[19] to: amqps://iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com:5671 failed

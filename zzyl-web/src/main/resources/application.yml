@@ -26,7 +26,7 @@ spring:
   #数据源配置
   datasource:
     druid:
-      driver-class-name: com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://192.168.200.146:3306/zhyl-auth?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
       username: root
       password: heima123
@@ -66,7 +66,7 @@ zzyl:
   framework:
     security:
       ignore-url:
-        - /**
+#        - /**
         - /resource/menus/**
         - /resource/myButten/**
         - /customer/**
@@ -94,9 +94,7 @@ zzyl:
       endpoint: oss-cn-beijing.aliyuncs.com
       accessKeyId:
       accessKeySecret:
-      bucketName: sky-take-out212
-
-
+      bucketName: zzyl723
   wechat:
     appId:
     appSecret:
@@ -104,11 +102,11 @@ zzyl:
 #    appId: wxa37ad44a9d9ab836
 #    appSecret: 85ef0e856bafed3eb55e279c3a48fa49
   aliyun:
-    accessKeyId: LTAI5tDQKg9F61aJhbmhqVRK
-    accessKeySecret: LYUKZH7HQGBoD025pmSq0fQsREaOYD
+    accessKeyId:
+    accessKeySecret:
     consumerGroupId: DEFAULT_GROUP
 #    consumerGroupId: 0CP9WrqP8Q1lLaWFjli9000100
-    regionId: cn-shanghai
+    regionId: cn-beijing
     iotInstanceId: iot-06z00frq8umvkx2
     host: iot-06z00frq8umvkx2.amqp.iothub.aliyuncs.com
 
